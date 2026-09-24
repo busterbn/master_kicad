@@ -386,8 +386,8 @@
 			)
 		)
 	)
-	(sheetname "/nRF5340/")
-	(sheetfile "pca20065_nrf5340.kicad_sch")
+	(sheetname "/nRF54L15/")
+	(sheetfile "pca20065_nrf54l15.kicad_sch")
 	(net_tie_pad_groups "1, 2")
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly

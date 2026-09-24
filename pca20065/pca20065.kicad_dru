@@ -1,14 +1,14 @@
 (version 1)
 # Nordic's Altium design rules for PCA20065, translated to KiCad.
-# Later rules take precedence over earlier ones. Rooms "nRF53" and "nPM6001" are rule areas on the board.
+# Later rules take precedence over earlier ones. Rooms "nRF54" and "nPM6001" are rule areas on the board.
 
 # --- Width ---------------------------------------------------------------------------------------
 (rule "Width"
 	(condition "A.Type == 'Track'")
 	(constraint track_width (min 0.1249mm) (opt 0.125mm) (max 3mm)))
 
-(rule "Width_nRF5340 and nPM6001"
-	(condition "A.Type == 'Track' && ((A.Layer == 'B.Cu' && A.intersectsArea('nRF53')) || (A.Layer == 'In4.Cu' && A.intersectsArea('nPM6001')))")
+(rule "Width_nRF54L15 and nPM6001"
+	(condition "A.Type == 'Track' && ((A.Layer == 'B.Cu' && A.intersectsArea('nRF54')) || (A.Layer == 'In4.Cu' && A.intersectsArea('nPM6001')))")
 	(constraint track_width (min 0.105mm) (opt 0.254mm) (max 0.254mm)))
 
 (rule "Width_RF"
@@ -46,8 +46,8 @@
 	(condition "A.Layer == 'In4.Cu' && B.intersectsArea('nPM6001')")
 	(constraint clearance (min 0.105mm)))
 
-(rule "Clearance_nRF5340"
-	(condition "B.intersectsArea('nRF53')")
+(rule "Clearance_nRF54L15"
+	(condition "B.intersectsArea('nRF54')")
 	(constraint clearance (min 0.1mm)))
 
 (rule "NPTH clearance"

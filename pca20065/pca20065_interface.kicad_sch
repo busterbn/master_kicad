@@ -8442,125 +8442,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pca20065:VBAT_nRF70_BAR"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBAT_nRF70"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'VBAT_nRF70'"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBAT_nRF70_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "VBAT_nRF70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "pca20065:VBUS_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -8918,7 +8799,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pca20065:VDD_nRF53_BAR"
+		(symbol "pca20065:VDD_nRF54_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8936,7 +8817,7 @@
 					)
 				)
 			)
-			(property "Value" "VDD_nRF53"
+			(property "Value" "VDD_nRF54"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8968,7 +8849,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name 'VDD_nRF53'"
+			(property "Description" "Power symbol creates a global label with name 'VDD_nRF54'"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8990,7 +8871,7 @@
 					)
 				)
 			)
-			(symbol "VDD_nRF53_BAR_0_0"
+			(symbol "VDD_nRF54_BAR_0_0"
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy 1.27 -2.54)
@@ -9019,7 +8900,7 @@
 					(at 0 0 0)
 					(length 0)
 					(hide yes)
-					(name "VDD_nRF53"
+					(name "VDD_nRF54"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9258,125 +9139,6 @@
 					(length 0)
 					(hide yes)
 					(name "VDD_nRF91_RES"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "pca20065:VOUT_BUCK3_BAR"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VOUT_BUCK3"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'VOUT_BUCK3'"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VOUT_BUCK3_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "VOUT_BUCK3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11097,16 +10859,6 @@
 		)
 		(uuid "230b1ed7-0d10-4b14-ac8e-e95b88a33d71")
 	)
-	(wire
-		(pts
-			(xy 148.59 43.0022) (xy 170.18 43.0022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26add014-97bb-4f72-9d7c-a41da2928701")
-	)
 	(bus
 		(pts
 			(xy 59.69 203.0222) (xy 73.66 203.0222)
@@ -11992,16 +11744,6 @@
 			(type default)
 		)
 		(uuid "75f60216-8156-4332-b4df-e0c9c80bdd50")
-	)
-	(wire
-		(pts
-			(xy 148.59 40.4622) (xy 170.18 40.4622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "763acc61-89ee-425e-9634-87715a18f510")
 	)
 	(wire
 		(pts
@@ -29053,7 +28795,7 @@
 		)
 		(uuid "16cf1868-954f-4325-8e7d-2027dca5a85e")
 	)
-	(label "nRF53_SWD{SWD}"
+	(label "nRF54_SWD{SWD}"
 		(at 60.96 233.5022 180)
 		(effects
 			(font
@@ -29383,7 +29125,7 @@
 		)
 		(uuid "83eb6046-b38d-4f71-972b-25a5b8137713")
 	)
-	(label "nRF53_SWD.CLK"
+	(label "nRF54_SWD.CLK"
 		(at 76.2 233.5022 0)
 		(effects
 			(font
@@ -29523,7 +29265,7 @@
 		)
 		(uuid "9ef8407d-7a04-4d5d-9a84-cc8ae00034e7")
 	)
-	(label "nRF53_SWD.RST"
+	(label "nRF54_SWD.RST"
 		(at 76.2 236.0422 0)
 		(effects
 			(font
@@ -29873,7 +29615,7 @@
 		)
 		(uuid "f1f9cf37-05fd-465e-869a-a217149ac1bf")
 	)
-	(label "nRF53_SWD.IO"
+	(label "nRF54_SWD.IO"
 		(at 76.2 230.9622 0)
 		(effects
 			(font
@@ -29904,7 +29646,7 @@
 		)
 		(uuid "2850b77a-f0cc-4295-b6c1-20f7fc840500")
 	)
-	(hierarchical_label "nRF53_SWD{SWD}"
+	(hierarchical_label "nRF54_SWD{SWD}"
 		(shape bidirectional)
 		(at 59.69 233.5022 180)
 		(effects
@@ -43874,81 +43616,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pca20065:VOUT_BUCK3_BAR")
-		(at 148.59 40.4622 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8913ed93-ac01-4c7d-903a-8def6d1fe1d8")
-		(property "Reference" "#PWR0253"
-			(at 148.59 40.4622 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VOUT_BUCK3"
-			(at 144.78 40.4622 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 40.4622 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 40.4622 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 40.4622 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "6ef20b6c-36c3-438d-b61d-d82762008657")
-		)
-		(instances
-			(project "pca20065"
-				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d4ab6c1b-6878-4200-97f2-488e8c9baa6f"
-					(reference "#PWR0253")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "CAP_7")
 		(lib_id "pca20065:CAP_7")
 		(at 313.69 135.7122 270)
@@ -51256,81 +50923,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pca20065:VBAT_nRF70_BAR")
-		(at 148.59 43.0022 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ef3fb74a-d8b9-47b3-aab2-b5708d75ba83")
-		(property "Reference" "#PWR0254"
-			(at 148.59 43.0022 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBAT_nRF70"
-			(at 144.78 43.0022 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 43.0022 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 43.0022 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 43.0022 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a8fc8a3b-8569-4a4a-a34a-b7a973df7277")
-		)
-		(instances
-			(project "pca20065"
-				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d4ab6c1b-6878-4200-97f2-488e8c9baa6f"
-					(reference "#PWR0254")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pca20065:SF72S006VBxR2500")
 		(at 344.17 192.8622 0)
 		(unit 1)
@@ -53180,7 +52772,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pca20065:VDD_nRF53_BAR")
+		(lib_id "pca20065:VDD_nRF54_BAR")
 		(at 148.59 48.0822 270)
 		(unit 1)
 		(body_style 1)
@@ -53201,7 +52793,7 @@
 				)
 			)
 		)
-		(property "Value" "VDD_nRF53"
+		(property "Value" "VDD_nRF54"
 			(at 144.78 48.0822 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53910,7 +53502,7 @@
 		(instances
 			(project "pca20065"
 				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d4ab6c1b-6878-4200-97f2-488e8c9baa6f"
-					(page "9")
+					(page "8")
 				)
 			)
 		)
@@ -54007,9 +53599,17 @@
 		(instances
 			(project "pca20065"
 				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d4ab6c1b-6878-4200-97f2-488e8c9baa6f"
-					(page "10")
+					(page "9")
 				)
 			)
 		)
+	)
+	(no_connect
+		(at 170.1800 40.4622)
+		(uuid "0128ec93-91e9-486b-9d50-17a680ada09e")
+	)
+	(no_connect
+		(at 170.1800 43.0022)
+		(uuid "ed49b123-aa4a-4f4b-aeeb-a17196a0e9ba")
 	)
 )

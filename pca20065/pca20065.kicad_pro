@@ -597,23 +597,11 @@
     "netclass_patterns": [
       {
         "netclass": "POWER",
-        "pattern": "VOUT_BUCK0"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "VOUT_BUCK3"
-      },
-      {
-        "netclass": "POWER",
         "pattern": "1V8_SW"
       },
       {
         "netclass": "POWER",
         "pattern": "VSYS_SW"
-      },
-      {
-        "netclass": "RF_BLE/WIFI",
-        "pattern": "Net-(F2-2.4G)"
       },
       {
         "netclass": "RF_BLE/WIFI",
@@ -625,23 +613,11 @@
       },
       {
         "netclass": "RF_BLE/WIFI",
-        "pattern": "/nRF5340/ANT"
-      },
-      {
-        "netclass": "RF_BLE/WIFI",
-        "pattern": "Net-(F2-COM)"
+        "pattern": "/nRF54L15/ANT"
       },
       {
         "netclass": "RF_BLE/WIFI",
         "pattern": "/RF_Frontend/BLE_RF"
-      },
-      {
-        "netclass": "RF_BLE/WIFI",
-        "pattern": "/RF_Frontend/WIFI_RF_5G"
-      },
-      {
-        "netclass": "RF_BLE/WIFI",
-        "pattern": "/RF_Frontend/WIFI_RF_2.4G"
       },
       {
         "netclass": "RF",
@@ -698,6 +674,18 @@
       {
         "netclass": "RF",
         "pattern": "/RF_Frontend/GPS_RF"
+      },
+      {
+        "netclass": "RF_BLE/WIFI",
+        "pattern": "/nRF54L15/RF1"
+      },
+      {
+        "netclass": "RF_BLE/WIFI",
+        "pattern": "/nRF54L15/RF2"
+      },
+      {
+        "netclass": "RF_BLE/WIFI",
+        "pattern": "/nRF54L15/RF3"
       }
     ]
   },
@@ -812,11 +800,6 @@
         "CC2",
         "CC1"
       ],
-      "COEX": [
-        "STATUS",
-        "REQ",
-        "GRANT"
-      ],
       "EXP_BOARD": [
         "PIN1",
         "PIN2"
@@ -884,12 +867,6 @@
       "USB": [
         "D_N",
         "D_P"
-      ],
-      "WIFI_HOST_IF": [
-        "SS",
-        "IRQ",
-        "ENABLE",
-        "VDDIO_CTRL"
       ]
     },
     "connection_grid_size": 50.0,
@@ -946,11 +923,7 @@
     ],
     [
       "d420c466-9a4e-40c1-a7dd-d518811219f7",
-      "nRF5340"
-    ],
-    [
-      "068b046d-db4e-4f1c-8e46-487f0b296887",
-      "nRF7002"
+      "nRF54L15"
     ],
     [
       "cef19926-9e91-4d70-97a3-a9f9e8cbb42f",

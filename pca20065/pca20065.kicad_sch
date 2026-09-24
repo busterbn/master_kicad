@@ -847,22 +847,6 @@
 		(color 0 0 0 0)
 		(uuid "5a0b5629-8d2c-4795-8146-0577d2059239")
 	)
-	(junction
-		(at 232.41 129.3622)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c495e099-d7c5-43de-82e0-4dac59b498c8")
-	)
-	(wire
-		(pts
-			(xy 207.01 126.8222) (xy 316.23 126.8222)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04331f3b-ef31-41b2-8d98-8a107e5efc98")
-	)
 	(bus
 		(pts
 			(xy 127 215.7222) (xy 127 243.6622)
@@ -895,17 +879,6 @@
 			(color 135 186 221 1)
 		)
 		(uuid "0a0b317d-fa43-4bfe-9b6a-8ee6f80e4609")
-	)
-	(bus
-		(pts
-			(xy 133.35 175.0822) (xy 133.35 246.2022)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "0a6d6274-8b63-4c6e-9360-516985b94b92")
 	)
 	(bus
 		(pts
@@ -1027,16 +1000,6 @@
 		)
 		(uuid "2eab0040-191f-4646-a108-50d2c4038c47")
 	)
-	(wire
-		(pts
-			(xy 207.01 124.2822) (xy 318.77 124.2822)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eefc041-82fc-408e-b1f5-8b59bedd2a7e")
-	)
 	(bus
 		(pts
 			(xy 207.01 150.9522) (xy 252.73 150.9522)
@@ -1047,27 +1010,6 @@
 			(color 135 186 221 1)
 		)
 		(uuid "3012eeb5-74f2-4015-954e-ec021978bfb6")
-	)
-	(wire
-		(pts
-			(xy 232.41 237.3122) (xy 232.41 129.3622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "311dc1e4-da73-40c4-b917-76d1bf2b9f4b")
-	)
-	(bus
-		(pts
-			(xy 124.46 163.6522) (xy 124.46 129.3622)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "31feb269-bca0-4300-9be8-b874b8907005")
 	)
 	(wire
 		(pts
@@ -1088,17 +1030,6 @@
 			(type default)
 		)
 		(uuid "32fee5d0-19e4-4776-86bd-2ce2f307f66f")
-	)
-	(bus
-		(pts
-			(xy 234.95 131.9022) (xy 234.95 241.1222)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 173 188 231 1)
-		)
-		(uuid "333c2a1b-b907-4d27-82b4-701c7a261224")
 	)
 	(polyline
 		(pts
@@ -1154,17 +1085,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "424fa26f-6b5b-4c04-a204-c0d2a8fc9ee7")
-	)
-	(bus
-		(pts
-			(xy 133.35 126.8222) (xy 133.35 175.0822)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "469554b1-1a65-4e04-a13c-538626924252")
 	)
 	(bus
 		(pts
@@ -1228,16 +1148,6 @@
 			(color 135 186 221 1)
 		)
 		(uuid "4e5727f6-f04b-42b2-ac46-12650a27f876")
-	)
-	(wire
-		(pts
-			(xy 135.89 192.8622) (xy 119.38 192.8622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5042b34e-f9bc-4d91-97cf-0336a314dbba")
 	)
 	(wire
 		(pts
@@ -1313,17 +1223,6 @@
 		)
 		(uuid "617b6fb1-24b2-4737-925c-61f2dc9fc572")
 	)
-	(bus
-		(pts
-			(xy 133.35 246.2022) (xy 157.48 246.2022)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "66273941-9554-4cac-abba-2afcf11cdb69")
-	)
 	(wire
 		(pts
 			(xy 119.38 208.1022) (xy 121.92 208.1022)
@@ -1344,16 +1243,6 @@
 			(color 135 186 221 1)
 		)
 		(uuid "6b97e646-7720-481e-8763-d418766e91e5")
-	)
-	(wire
-		(pts
-			(xy 318.77 153.4922) (xy 303.53 153.4922)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c43f445-ba2a-4bfe-81de-780201aad501")
 	)
 	(bus
 		(pts
@@ -1379,17 +1268,6 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 129.3622) (xy 157.48 129.3622)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "70c4a067-08f5-44b8-81ac-b52d35e9a9f1")
-	)
-	(bus
-		(pts
 			(xy 157.48 148.4122) (xy 142.24 148.4122)
 		)
 		(stroke
@@ -1409,16 +1287,6 @@
 			(color 135 186 221 1)
 		)
 		(uuid "72472973-3de6-4de1-a7d2-2e2b5e2537d7")
-	)
-	(wire
-		(pts
-			(xy 316.23 150.9522) (xy 303.53 150.9522)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "742e3917-c2ec-407b-9523-59d5f585c4d0")
 	)
 	(bus
 		(pts
@@ -1441,16 +1309,6 @@
 			(color 51 63 72 1)
 		)
 		(uuid "77feac18-4030-4a7d-9aab-fed6ec982de0")
-	)
-	(wire
-		(pts
-			(xy 207.01 237.3122) (xy 232.41 237.3122)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79122cca-6701-4d7b-9bc4-1d35ac4a8834")
 	)
 	(polyline
 		(pts
@@ -1486,17 +1344,6 @@
 	)
 	(bus
 		(pts
-			(xy 207.01 131.9022) (xy 234.95 131.9022)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 173 188 231 1)
-		)
-		(uuid "7fb9e8bc-98e9-477f-9af7-92ab70c18bd0")
-	)
-	(bus
-		(pts
 			(xy 146.05 153.4922) (xy 157.48 153.4922)
 		)
 		(stroke
@@ -1505,16 +1352,6 @@
 			(color 135 186 221 1)
 		)
 		(uuid "806fabd0-4da6-4eda-93a8-df0558212735")
-	)
-	(wire
-		(pts
-			(xy 313.69 129.3622) (xy 313.69 148.4122)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82c6207f-12b2-4728-a78d-1de9d157871a")
 	)
 	(wire
 		(pts
@@ -1536,17 +1373,6 @@
 			(color 135 186 221 1)
 		)
 		(uuid "8b0e0c6f-72bb-4fcd-9237-eafc36ca11a3")
-	)
-	(bus
-		(pts
-			(xy 119.38 241.1222) (xy 157.48 241.1222)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "8edd96f1-a2e0-4524-8c23-6d3392501269")
 	)
 	(wire
 		(pts
@@ -1655,17 +1481,6 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 248.7422) (xy 119.38 248.7422)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "a6208e90-07fb-4f0f-950d-ac9abd966ba1")
-	)
-	(bus
-		(pts
 			(xy 129.54 166.1922) (xy 119.38 166.1922)
 		)
 		(stroke
@@ -1685,16 +1500,6 @@
 		)
 		(uuid "ac283bd1-1d57-42e6-b03a-1343acf51502")
 	)
-	(wire
-		(pts
-			(xy 318.77 124.2822) (xy 318.77 153.4922)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aebf69e1-a0d0-4b50-b00f-b797676340a8")
-	)
 	(bus
 		(pts
 			(xy 157.48 236.0422) (xy 124.46 236.0422)
@@ -1705,16 +1510,6 @@
 			(color 135 186 221 1)
 		)
 		(uuid "b27674e9-0178-47b0-88ef-499f1138967c")
-	)
-	(wire
-		(pts
-			(xy 232.41 129.3622) (xy 313.69 129.3622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b666ce41-ca67-4687-bc3e-f6b2cbf1874c")
 	)
 	(bus
 		(pts
@@ -1737,17 +1532,6 @@
 			(color 135 186 221 1)
 		)
 		(uuid "b7e9b455-e3ba-4656-884f-d925a1ba1670")
-	)
-	(bus
-		(pts
-			(xy 234.95 241.1222) (xy 207.01 241.1222)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 173 188 231 1)
-		)
-		(uuid "bd66a663-1a3d-468b-844f-bd00c1dda6b4")
 	)
 	(polyline
 		(pts
@@ -1780,16 +1564,6 @@
 		)
 		(uuid "c64dcfa3-9a6e-49bb-b760-c0d8a4fb5785")
 	)
-	(wire
-		(pts
-			(xy 313.69 148.4122) (xy 303.53 148.4122)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c72f1e5e-dab1-4be7-aa9a-e9c0966a0cd0")
-	)
 	(bus
 		(pts
 			(xy 157.48 215.7222) (xy 127 215.7222)
@@ -1800,16 +1574,6 @@
 			(color 135 186 221 1)
 		)
 		(uuid "c912d9df-3dca-4694-a1b3-5cae768391a5")
-	)
-	(wire
-		(pts
-			(xy 316.23 126.8222) (xy 316.23 150.9522)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb9bec78-c1ec-4ec3-985d-09ee99682b0b")
 	)
 	(bus
 		(pts
@@ -1916,16 +1680,6 @@
 		)
 		(uuid "d96f799b-02ad-4cb0-8ba4-178e3b9e6bde")
 	)
-	(wire
-		(pts
-			(xy 135.89 253.8222) (xy 135.89 192.8622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da2aaa14-716b-4151-923e-132962f68458")
-	)
 	(bus
 		(pts
 			(xy 157.48 150.9522) (xy 119.38 150.9522)
@@ -1946,16 +1700,6 @@
 			(type default)
 		)
 		(uuid "dbfb0d5a-514e-4114-9765-b42d1f26712e")
-	)
-	(wire
-		(pts
-			(xy 207.01 129.3622) (xy 232.41 129.3622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df35280b-6842-4914-9c05-08a6c9e6f91a")
 	)
 	(polyline
 		(pts
@@ -2024,27 +1768,6 @@
 	)
 	(bus
 		(pts
-			(xy 157.48 126.8222) (xy 133.35 126.8222)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "f357b932-df3a-44e7-9b57-dfc82a45e943")
-	)
-	(wire
-		(pts
-			(xy 157.48 253.8222) (xy 135.89 253.8222)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5b7c731-f128-4950-b153-4eb432bd777f")
-	)
-	(bus
-		(pts
 			(xy 129.54 175.0822) (xy 129.54 238.5822)
 		)
 		(stroke
@@ -2063,17 +1786,6 @@
 			(type default)
 		)
 		(uuid "fb485218-e8e6-4d7c-be63-10967eb72e04")
-	)
-	(bus
-		(pts
-			(xy 133.35 175.0822) (xy 157.48 175.0822)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "ff7b5c4a-d17f-4e12-a926-a633bdb43a30")
 	)
 	(image
 		(at 375.9565 280.4922)
@@ -46624,113 +46336,6 @@
 		)
 	)
 	(sheet
-		(at 157.48 121.7422)
-		(size 49.53 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 51 63 72 1)
-		)
-		(fill
-			(color 128 239 158 1)
-		)
-		(uuid "068b046d-db4e-4f1c-8e46-487f0b296887")
-		(property "Sheetname" "nRF7002"
-			(at 157.48 119.2022 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pca20065_nrf7002.kicad_sch"
-			(at 157.48 121.7422 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "WIFI_SPI{SPI}" bidirectional
-			(at 157.48 129.3622 180)
-			(uuid "b302df6f-87bd-4849-8595-0b57bac873ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIFI_USES_2.4G" output
-			(at 207.01 129.3622 0)
-			(uuid "535d02f7-64fd-437d-8267-634dc2b2af8e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIFI_HOST_IF{WIFI_HOST_IF}" bidirectional
-			(at 157.48 126.8222 180)
-			(uuid "813dcab4-5b96-4e92-886e-b893e6c441e2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIFI_RF_2.4G" bidirectional
-			(at 207.01 126.8222 0)
-			(uuid "d6e9c7cb-5271-451b-b18d-04155d9b4f36")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIFI_RF_5G" bidirectional
-			(at 207.01 124.2822 0)
-			(uuid "d3ad1f0e-6b95-46b2-8014-26663c9f8336")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "COEX_WIFI{COEX}" passive
-			(at 207.01 131.9022 0)
-			(uuid "09b43479-7e15-4b71-ad1e-3994a289e229")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "pca20065"
-				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 76.2 145.8722)
 		(size 43.18 22.86)
 		(exclude_from_sim no)
@@ -46842,7 +46447,7 @@
 		(instances
 			(project "pca20065"
 				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
@@ -46926,40 +46531,10 @@
 				(justify left)
 			)
 		)
-		(pin "WIFI_RF_2.4G" bidirectional
-			(at 303.53 150.9522 0)
-			(uuid "db5c6fbc-ffbc-4200-90d8-a85e8c96408c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIFI_RF_5G" bidirectional
-			(at 303.53 153.4922 0)
-			(uuid "8a793689-aa40-45e6-93a6-88b527b579df")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIFI_USES_2.4G" input
-			(at 303.53 148.4122 0)
-			(uuid "bc7ab2eb-68fb-4bac-90ce-b0e21fdd6d93")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "pca20065"
 				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -47083,20 +46658,10 @@
 				(justify right)
 			)
 		)
-		(pin "RFFE_BLE_WIFI_ENABLE" input
-			(at 119.38 192.8622 0)
-			(uuid "a30f474e-1c2e-4ff5-b3e4-b778c88b5fbe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "pca20065"
 				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -47118,7 +46683,7 @@
 			(color 128 239 158 1)
 		)
 		(uuid "d420c466-9a4e-40c1-a7dd-d518811219f7")
-		(property "Sheetname" "nRF5340"
+		(property "Sheetname" "nRF54L15"
 			(at 157.48 223.3422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47129,7 +46694,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pca20065_nrf5340.kicad_sch"
+		(property "Sheetfile" "pca20065_nrf54l15.kicad_sch"
 			(at 157.48 222.0722 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47138,36 +46703,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(pin "USB{USB}" passive
-			(at 157.48 241.1222 180)
-			(uuid "732adfea-d5cf-4c81-bbc2-f606cdd53126")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "COEX_WIFI{COEX}" passive
-			(at 207.01 241.1222 0)
-			(uuid "52b12fc2-c6ea-422a-8563-a2bd0dd3c9d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WIFI_HOST_IF{WIFI_HOST_IF}" passive
-			(at 157.48 246.2022 180)
-			(uuid "00eb4164-4a81-4066-abdb-11a32e51d781")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "I2C{I2C}" passive
@@ -47190,7 +46725,7 @@
 				(justify right)
 			)
 		)
-		(pin "nRF53_SWD{SWD}" passive
+		(pin "nRF54_SWD{SWD}" passive
 			(at 157.48 243.6622 180)
 			(uuid "6958324d-e901-436e-bf72-d2c2aafccc40")
 			(effects
@@ -47260,16 +46795,6 @@
 				(justify left)
 			)
 		)
-		(pin "WIFI_USES_2.4G" input
-			(at 207.01 237.3122 0)
-			(uuid "722e47ee-0930-4219-9415-0df62a37ebff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SPI{SPI}" passive
 			(at 157.48 236.0422 180)
 			(uuid "5edf36c9-a8c2-4b2c-bfad-56a6894472d5")
@@ -47283,16 +46808,6 @@
 		(pin "LTE_BLE_COEX" input
 			(at 157.48 223.3422 180)
 			(uuid "1b6f2e90-4998-45cc-81be-9b2ffdecc0a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SWD1{SWD}" passive
-			(at 157.48 248.7422 180)
-			(uuid "d913a9b8-8d63-402d-b92d-156cfd368a7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47318,16 +46833,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "RFFE_BLE_WIFI_ENABLE" output
-			(at 157.48 253.8222 180)
-			(uuid "f0b71460-2365-4e9e-9b16-56f336453768")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "FLASH{MEMORY}" passive
@@ -47397,7 +46902,7 @@
 				(justify right)
 			)
 		)
-		(pin "nRF53_SWD{SWD}" passive
+		(pin "nRF54_SWD{SWD}" passive
 			(at 119.38 243.6622 0)
 			(uuid "ba6c8546-07dc-4dd6-99da-0bfe936d573c")
 			(effects
@@ -47520,7 +47025,7 @@
 		(instances
 			(project "pca20065"
 				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86"
-					(page "8")
+					(page "7")
 				)
 			)
 		)
@@ -47644,7 +47149,7 @@
 				(justify left)
 			)
 		)
-		(pin "nRF53_SWD{SWD}" passive
+		(pin "nRF54_SWD{SWD}" passive
 			(at 157.48 215.7222 180)
 			(uuid "2c8e49a9-453a-41fe-af73-829a629f0253")
 			(effects
@@ -47707,16 +47212,6 @@
 		(pin "FLASH{MEMORY}" passive
 			(at 157.48 148.4122 180)
 			(uuid "6a7409cb-7b43-4168-b4d9-1b4fc5e520ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WIFI_HOST_IF{WIFI_HOST_IF}" passive
-			(at 157.48 175.0822 180)
-			(uuid "e286e9d4-b815-439b-8e35-37f880aec7ed")
 			(effects
 				(font
 					(size 1.27 1.27)
