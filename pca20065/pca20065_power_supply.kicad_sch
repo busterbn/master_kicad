@@ -5944,344 +5944,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pca20065:SW-DPDT"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SMD slide Switch (ON-ON)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*JS102011JAQN*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW-DPDT_1_0"
-				(circle
-					(center 2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0) (xy 5.334 0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 51 63 72 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -5.08) (xy 5.334 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 51 63 72 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -0.508) (xy 3.556 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 51 63 72 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -1.524) (xy 3.556 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 51 63 72 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -2.54) (xy 3.556 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 51 63 72 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -3.81) (xy 3.556 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 51 63 72 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 5.08 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 5.08 -3.81)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 5.08 -6.35)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 7.62 -1.27 180)
-					(length 2.286)
-					(name "N.O-1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.286)
-					(name "COM-1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 1.27 180)
-					(length 2.286)
-					(name "N.C-1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -6.35 180)
-					(length 2.286)
-					(name "N.O-2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 2.286)
-					(name "COM-2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -3.81 180)
-					(length 2.286)
-					(name "N.C-2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "pca20065:TCK106AG"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9653,7 +9315,7 @@
 		)
 		(uuid "8ec4b8fa-d9e2-4705-a558-4e6046c3e7f3")
 	)
-	(text "Battery connector and power switch"
+	(text "Battery connector"
 		(exclude_from_sim no)
 		(at 12.7 45.5422 0)
 		(effects
@@ -9901,12 +9563,6 @@
 		(uuid "68622425-ef92-4931-8e64-e6cfa3f23a6d")
 	)
 	(junction
-		(at 24.13 83.6422)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e447593-1029-4df9-8289-e588c7f8aec4")
-	)
-	(junction
 		(at 170.18 163.6522)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10007,12 +9663,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be22bf43-f803-4636-9b08-e6be178d67dc")
-	)
-	(junction
-		(at 24.13 88.7222)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bedb4724-4f6c-4543-97be-203826f636a7")
 	)
 	(junction
 		(at 67.31 209.3722)
@@ -10563,16 +10213,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "2b244996-dba8-4376-93e8-5209611ac74c")
-	)
-	(wire
-		(pts
-			(xy 34.29 89.9922) (xy 36.83 89.9922)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bf2f009-a3ef-42f4-8e77-db7777fa22ca")
 	)
 	(wire
 		(pts
@@ -11294,16 +10934,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 82.3722) (xy 36.83 82.3722)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03641f5-0975-48a4-afdb-84310f081b55")
-	)
-	(wire
-		(pts
 			(xy 246.38 256.3622) (xy 248.92 256.3622)
 		)
 		(stroke
@@ -11424,16 +11054,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 83.6422) (xy 26.67 83.6422)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be1326b2-6665-417b-9b07-6396e586f6ba")
-	)
-	(wire
-		(pts
 			(xy 63.5 178.8922) (xy 66.04 178.8922)
 		)
 		(stroke
@@ -11472,16 +11092,6 @@
 		)
 		(uuid "c1df84af-c8e1-4ee5-859d-4f0e122890e0")
 	)
-	(wire
-		(pts
-			(xy 34.29 84.9122) (xy 36.83 84.9122)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e5438b-3471-4554-8bc3-258d10afbb8c")
-	)
 	(bus
 		(pts
 			(xy 45.72 125.5522) (xy 45.72 126.8222)
@@ -11514,16 +11124,6 @@
 		)
 		(uuid "cd1b4cec-a269-41f2-b410-2a7081ffb89f")
 	)
-	(wire
-		(pts
-			(xy 34.29 87.4522) (xy 36.83 87.4522)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf8e122a-454d-4ab7-88d3-4399dd63c7b7")
-	)
 	(bus
 		(pts
 			(xy 48.26 196.6722) (xy 48.26 194.1322)
@@ -11554,16 +11154,6 @@
 			(type default)
 		)
 		(uuid "d86c356d-b2c2-4755-9e7d-5e6fe7476cbf")
-	)
-	(wire
-		(pts
-			(xy 24.13 88.7222) (xy 26.67 88.7222)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db15b52e-4fe4-4da9-8658-42d0c332e66c")
 	)
 	(wire
 		(pts
@@ -56799,82 +56389,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pca20065:GND_POWER_GROUND")
-		(at 36.83 89.9922 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64a2018c-d069-4b37-a919-47b812e4eb02")
-		(property "Reference" "#PWR0142"
-			(at 36.83 89.9922 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 89.9922 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 89.9922 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 89.9922 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 89.9922 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "01163818-f729-4c46-81ab-0130feba3fc4")
-		)
-		(instances
-			(project "pca20065"
-				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
-					(reference "#PWR0142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "CAP_22")
 		(lib_id "pca20065:CAP_22")
 		(at 184.15 148.4122 90)
@@ -59647,81 +59161,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pca20065:1V8_BAR")
-		(at 36.83 82.3722 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93580d1b-9d11-454b-ada4-71b271aec1e9")
-		(property "Reference" "#PWR0139"
-			(at 36.83 82.3722 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1V8"
-			(at 40.64 82.3722 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 82.3722 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 82.3722 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 82.3722 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "db4d867a-2643-4e33-8355-28c6bbc0477e")
-		)
-		(instances
-			(project "pca20065"
-				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
-					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pca20065:TESTPAD")
 		(at 177.8 86.1822 0)
 		(unit 1)
@@ -60673,81 +60112,6 @@
 			(project "pca20065"
 				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pca20065:VSYS_BAR")
-		(at 36.83 87.4522 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "987e7512-b71a-48de-b626-ba352851d5b3")
-		(property "Reference" "#PWR0141"
-			(at 36.83 87.4522 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 40.64 87.4522 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 87.4522 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 87.4522 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 87.4522 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "bcfb022c-acaf-4707-89f8-62ee885f217b")
-		)
-		(instances
-			(project "pca20065"
-				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
-					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -63010,422 +62374,6 @@
 			(project "pca20065"
 				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
 					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pca20065:SW-DPDT")
-		(at 26.67 83.6422 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af0090ab-5c1d-4aad-a68b-17674a67f216")
-		(property "Reference" "SW1"
-			(at 28.956 81.6102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "${ALTIUM_VALUE}"
-			(at 28.956 93.2942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pca20065-import-fps:JS102011JAQN"
-			(at 26.67 83.6422 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 83.6422 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD slide Switch (ON-ON)"
-			(at 26.67 83.6422 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PART NUMBER" "Switch-Slide-RA-J-Lead-DPDT-8.5x3.5mm_C&K"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "C&K"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "JS202011JAQN"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "FOOTPRINT DOC" "Switch-Slide-RA-J-Lead-DPDT-8.5x3.5mm"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "2017-02-01"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHED" "2016-09-15"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "Switch"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "NOTE" "N.A."
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ARTIKKELNR NOCA" "N.A."
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 28.956 93.2942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PART NUMBER IPS" "00000007811"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "COMPONENTLINK1URL" "N.A."
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "COMPONENTLINK2URL" "N.A."
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Supplier link"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "HELPURL" "http://www.ck-components.com/media/1422/js.pdf"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "CKN10722CT-ND"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER 2" "Mouser"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "611-JS202011JAQN"
-			(at 26.162 81.6102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "AUTHOR" "rsk"
-			(at 26.162 79.0702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "COMPONENT CLASS" "Switches"
-			(at 26.162 79.0702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PAD COUNT" "6"
-			(at 26.162 79.0702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PARTID" "101500037"
-			(at 26.162 79.0702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PART NUMBER NORAUTRON" "N.A."
-			(at 26.162 79.0702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "COMPONENT STATUS" "Active"
-			(at 26.162 79.0702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PART NUMBER NEMS" "101500037"
-			(at 26.162 79.0702 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "4"
-			(uuid "031a3c37-ef74-4444-973b-2ffb15fe241d")
-		)
-		(pin "2"
-			(uuid "9e5034fb-b8fe-4652-a0fc-695b675ae42f")
-		)
-		(pin "6"
-			(uuid "b66d9984-47ec-4355-8167-4a5e8b714ebb")
-		)
-		(pin "5"
-			(uuid "a341f397-8e16-44eb-87c7-bbe752ccafdd")
-		)
-		(pin "1"
-			(uuid "f8f5f1e5-5888-425d-a094-b86b29dd25f0")
-		)
-		(pin "3"
-			(uuid "8061d7c6-30c2-4af9-8583-77bfef0cb60c")
-		)
-		(instances
-			(project "pca20065"
-				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -72559,82 +71507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pca20065:GND_POWER_GROUND")
-		(at 36.83 84.9122 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f6e013cc-9a0f-4081-9d04-a0dca8d79111")
-		(property "Reference" "#PWR0140"
-			(at 36.83 84.9122 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 84.9122 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 84.9122 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 84.9122 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 84.9122 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "1367419c-eb3d-472b-a5ad-bde7499d58f4")
-		)
-		(instances
-			(project "pca20065"
-				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
-					(reference "#PWR0140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pca20065:VDD_SENS_BAR")
 		(at 189.23 199.2122 180)
 		(unit 1)
@@ -73416,5 +72288,562 @@
 	(no_connect
 		(at 153.6700 199.2122)
 		(uuid "a193e29f-c877-4ff5-8419-48049f04c61f")
+	)
+	(symbol
+		(lib_id "pca20065:2 pin starpoint")
+		(at 50.8 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb6ecd71-ac0c-4a0e-902a-061e07e0da0e")
+		(property "Reference" "ST10"
+			(at 48.26 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Net tie"
+			(at 48.26 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pca20065-import-fps:NetTie-2_SMD_Pad2.0mm"
+			(at 50.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Replaces power switch SW1: 1V8 -> 1V8_SW"
+			(at 50.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd6d922d-6c4e-47d0-b9d7-160e08e5e790")
+		)
+		(pin "2"
+			(uuid "f62c0d13-c36c-4e85-ba53-041a9d3acdfd")
+		)
+		(instances
+			(project "pca20065"
+				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
+					(reference "ST10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 49.53 78.74) (xy 44.45 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0da153-dd81-48f7-af4d-a8473523e65e")
+	)
+	(wire
+		(pts
+			(xy 44.45 78.74) (xy 44.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fd1a09-1e3a-4596-ac0b-4d16fadccf3c")
+	)
+	(symbol
+		(lib_id "pca20065:1V8_BAR")
+		(at 44.45 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c63c6976-6033-48ca-9842-b09c17c7aede")
+		(property "Reference" "#PWR0951"
+			(at 44.45 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1V8"
+			(at 44.45 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d042e3f9-92ee-494e-8e79-93fdfb7aae37")
+		)
+		(instances
+			(project "pca20065"
+				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
+					(reference "#PWR0951")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 52.07 78.74) (xy 57.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9143fbf2-a896-4c6e-94f8-ab3ab5013d2a")
+	)
+	(wire
+		(pts
+			(xy 57.15 78.74) (xy 57.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06815042-6c31-4272-9203-273b716ce7b9")
+	)
+	(symbol
+		(lib_id "pca20065:1V8_SW_BAR")
+		(at 57.15 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b068a238-17a9-425b-9496-c687e99fa30c")
+		(property "Reference" "#PWR0952"
+			(at 57.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1V8_SW"
+			(at 57.15 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c8e12aab-ce97-4486-8846-8d580e6d4e1a")
+		)
+		(instances
+			(project "pca20065"
+				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
+					(reference "#PWR0952")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pca20065:2 pin starpoint")
+		(at 50.8 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "430ed4c9-f088-4c7a-9094-e5cb3d0dcdac")
+		(property "Reference" "ST11"
+			(at 48.26 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Net tie"
+			(at 48.26 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pca20065-import-fps:NetTie-2_SMD_Pad2.0mm"
+			(at 50.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Replaces power switch SW1: VSYS -> VSYS_SW"
+			(at 50.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "995675ff-db3d-4f6c-b34d-d0c1d9823593")
+		)
+		(pin "2"
+			(uuid "b040c846-b6fe-4fec-a5ad-7d1ecec3318e")
+		)
+		(instances
+			(project "pca20065"
+				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
+					(reference "ST11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 49.53 91.44) (xy 44.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d614bcc1-52a6-4828-85f2-61a2cdd962b4")
+	)
+	(wire
+		(pts
+			(xy 44.45 91.44) (xy 44.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5622158f-60db-4477-b029-7b03aac709d5")
+	)
+	(symbol
+		(lib_id "pca20065:VSYS_BAR")
+		(at 44.45 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a54ce2b3-c041-41e5-8b81-bbd561716764")
+		(property "Reference" "#PWR0953"
+			(at 44.45 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 44.45 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "bf5e71e9-bcea-49a5-b924-a2fd4f55ea9c")
+		)
+		(instances
+			(project "pca20065"
+				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
+					(reference "#PWR0953")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 52.07 91.44) (xy 57.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84de937-132d-4ff0-af6a-b992d5379b59")
+	)
+	(wire
+		(pts
+			(xy 57.15 91.44) (xy 57.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780245ea-e52e-47a0-9509-5f6de9203a9d")
+	)
+	(symbol
+		(lib_id "pca20065:VSYS_SW_BAR")
+		(at 57.15 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36af2b3e-a38a-412e-ae29-7bb4cb3c9e09")
+		(property "Reference" "#PWR0954"
+			(at 57.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS_SW"
+			(at 57.15 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4edabe92-2c10-41e2-9540-5665377a7629")
+		)
+		(instances
+			(project "pca20065"
+				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d074adcb-951f-49c1-adae-c871f3bb92cf"
+					(reference "#PWR0954")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "SW1 removed: always on (off = nPM1300 ship mode)"
+		(exclude_from_sim no)
+		(at 12.7 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "123d1fd9-57e0-4bcf-865f-36defa238852")
 	)
 )

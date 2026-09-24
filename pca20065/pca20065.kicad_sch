@@ -860,17 +860,6 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 210.6422) (xy 157.48 210.6422)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "09df3e7c-2e08-4a30-be4d-4e7cd543f267")
-	)
-	(bus
-		(pts
 			(xy 71.12 203.0222) (xy 71.12 182.7022)
 		)
 		(stroke
@@ -955,17 +944,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "1ea838a5-8c53-4518-870d-eaf1a2b34cf5")
-	)
-	(bus
-		(pts
-			(xy 119.38 243.6622) (xy 127 243.6622)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "2185304a-70d4-4140-b8b0-b260ad903774")
 	)
 	(bus
 		(pts
@@ -1106,17 +1084,6 @@
 			(type default)
 		)
 		(uuid "46b84ce0-c8ff-4bb6-a7ec-d9302fdada58")
-	)
-	(bus
-		(pts
-			(xy 157.48 205.5622) (xy 119.38 205.5622)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 135 186 221 1)
-		)
-		(uuid "480bfbda-6e5c-4117-9448-2ac870e42765")
 	)
 	(wire
 		(pts
@@ -46845,6 +46812,16 @@
 				(justify left)
 			)
 		)
+		(pin "nRF91_SWD{SWD}" bidirectional
+			(at 157.48 246.2022 180)
+			(uuid "a83baea6-e2b0-48fe-ad57-cbb1253cc866")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pca20065"
 				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86"
@@ -46895,26 +46872,6 @@
 		(pin "SIM{SIM}" passive
 			(at 119.38 203.0222 0)
 			(uuid "5db460dc-84ff-4a12-a3f8-43278f9fbbe1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "nRF54_SWD{SWD}" passive
-			(at 119.38 243.6622 0)
-			(uuid "ba6c8546-07dc-4dd6-99da-0bfe936d573c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "nRF91_SWD{SWD}" passive
-			(at 119.38 210.6422 0)
-			(uuid "6b0450c7-32d6-4254-be6c-39ccb4291b4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46995,26 +46952,6 @@
 		(pin "I2C{I2C}" passive
 			(at 119.38 238.5822 0)
 			(uuid "20de2117-0dd7-4c28-8dd8-a33494ef7f00")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TRACE{TRACE}" passive
-			(at 119.38 205.5622 0)
-			(uuid "185309d2-fc58-4dcd-ae12-cc5ad3b7da05")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IF_SWD{SWD}" passive
-			(at 119.38 248.7422 0)
-			(uuid "b2e43429-d985-4d27-92d5-643858723a29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47239,16 +47176,6 @@
 				(justify left)
 			)
 		)
-		(pin "TRACE{TRACE}" passive
-			(at 157.48 205.5622 180)
-			(uuid "06d4ff89-b34e-4c11-b78c-9afc0bf58a70")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RFFE_LTE_ENABLE" output
 			(at 157.48 185.2422 180)
 			(uuid "8b505bd1-7561-499e-a417-136544c56aa8")
@@ -47286,6 +47213,36 @@
 				)
 			)
 		)
+	)
+	(bus
+		(pts
+			(xy 157.48 246.2022) (xy 134.62 246.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59669de5-4639-4483-a022-64cb810df3ea")
+	)
+	(bus
+		(pts
+			(xy 134.62 246.2022) (xy 134.62 210.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688afc68-f242-45ce-82da-05bc669350f9")
+	)
+	(bus
+		(pts
+			(xy 134.62 210.6422) (xy 157.48 210.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a997c4-886f-4ca0-8559-5c4a0f4102da")
 	)
 	(sheet_instances
 		(path "/"

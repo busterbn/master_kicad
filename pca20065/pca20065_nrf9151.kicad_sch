@@ -6637,7 +6637,216 @@
 			)
 			(embedded_fonts no)
 		)
-	)
+			(symbol "pca20065:TC2030_SWD_UART"
+				(exclude_from_sim no)
+				(in_bom no)
+				(on_board yes)
+				(in_pos_files yes)
+				(duplicate_pin_numbers_are_jumpers no)
+				(property "Reference" "J"
+					(at 2.54 11.43 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Value" "TC2030-NL"
+					(at 5.08 8.89 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Footprint" "pca20065-import-fps:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+					(at 0 -17.78 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+					(at 0 -15.24 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "Description" "Tag-Connect TC2030-NL, SWD + UART (pin 3 = MCU RX, pin 6 = MCU TX)"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(property "ki_fp_filters" "*TC2030*"
+					(at 0 0 0)
+					(show_name no)
+					(do_not_autoplace no)
+					(hide yes)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(symbol "TC2030_SWD_UART_0_0"
+					(pin power_in line
+						(at -2.54 10.16 270)
+						(length 2.54)
+						(name "VCC"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "1"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at 7.62 -2.54 180)
+						(length 2.54)
+						(name "SWDIO"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "2"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(alternate "TMS" bidirectional line)
+					)
+					(pin passive line
+						(at 7.62 5.08 180)
+						(length 2.54)
+						(name "RX"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "3"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at 7.62 0 180)
+						(length 2.54)
+						(name "SWDCLK"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "4"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(alternate "TCK" output line)
+					)
+					(pin power_in line
+						(at -2.54 -10.16 90)
+						(length 2.54)
+						(name "GND"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "5"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+					)
+					(pin passive line
+						(at 7.62 -5.08 180)
+						(length 2.54)
+						(name "TX"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(number "6"
+							(effects
+								(font
+									(size 1.27 1.27)
+								)
+							)
+						)
+						(alternate "TDO" input line)
+					)
+				)
+				(symbol "TC2030_SWD_UART_0_1"
+					(rectangle
+						(start -5.08 7.62)
+						(end 5.08 -7.62)
+						(stroke
+							(width 0)
+							(type default)
+						)
+						(fill
+							(type background)
+						)
+					)
+				)
+				(embedded_fonts no)
+			)
+)
 	(text "LED1_RED"
 		(exclude_from_sim no)
 		(at 111.76 248.7422 0)
@@ -6681,17 +6890,6 @@
 			(justify left bottom)
 		)
 		(uuid "14530b57-a79c-4283-87c7-cb80e9b8115c")
-	)
-	(text "BUCKEN"
-		(exclude_from_sim no)
-		(at 90.17 280.4922 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "233b1019-2921-4391-8062-72ce3f9150a7")
 	)
 	(text "LED1_GREEN"
 		(exclude_from_sim no)
@@ -6835,17 +7033,6 @@
 			(justify left bottom)
 		)
 		(uuid "97382a0a-a9ed-4803-bf3e-4af660579d2a")
-	)
-	(text "HOST_IRQ"
-		(exclude_from_sim no)
-		(at 90.17 275.4122 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "994d2fee-bbcf-4c48-bd37-ac2e33cadabf")
 	)
 	(text "VCOM0_RXD"
 		(exclude_from_sim no)
@@ -7045,17 +7232,6 @@
 		)
 		(uuid "ebbe8375-fc96-458b-a079-c3a7ec9adb75")
 	)
-	(text "VDDIO_CTRL"
-		(exclude_from_sim no)
-		(at 90.17 272.8722 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f472a02b-a3a6-4ac8-9276-a54f1ac5360e")
-	)
 	(text "nRF91_SWDCLK"
 		(exclude_from_sim no)
 		(at 275.59 177.6222 0)
@@ -7129,12 +7305,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b5d2414-5e27-4a06-b417-6ba2922c0cb0")
-	)
-	(junction
-		(at 90.17 236.0422)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14176d16-0944-4993-89c5-da47c3200ce4")
 	)
 	(junction
 		(at 370.84 182.7022)
@@ -7281,12 +7451,6 @@
 		(uuid "7bc0a815-81f6-492d-af8f-a13b4e5541d2")
 	)
 	(junction
-		(at 87.63 233.5022)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ce02fed-8143-478c-a669-5c30cab99798")
-	)
-	(junction
 		(at 330.2 215.7222)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7431,12 +7595,6 @@
 		(uuid "e45711ec-45cd-44e8-941c-f9db5bdbd91e")
 	)
 	(junction
-		(at 92.71 238.5822)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6f7eea5-005e-43ae-971c-1b534d12ca06")
-	)
-	(junction
 		(at 370.84 185.2422)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7459,12 +7617,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3271108-a459-4cf0-898c-bb56967548ce")
-	)
-	(junction
-		(at 85.09 230.9622)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f41f0e45-fd4f-4dc2-a8b1-d763f3343523")
 	)
 	(junction
 		(at 330.2 192.8622)
@@ -7599,15 +7751,6 @@
 		(uuid "1cb9c0f1-ae36-4952-b7aa-94fd09bad750")
 	)
 	(bus_entry
-		(at 57.15 236.0422)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f26c960-d2e3-4d72-84a5-f699be6cc7a9")
-	)
-	(bus_entry
 		(at 208.28 197.9422)
 		(size -2.54 -2.54)
 		(stroke
@@ -7653,15 +7796,6 @@
 		(uuid "2e90433f-61ab-438b-9849-c0c09266ae87")
 	)
 	(bus_entry
-		(at 57.15 238.5822)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "327cad57-2521-40c2-b34e-1a618eec4732")
-	)
-	(bus_entry
 		(at 209.55 236.0422)
 		(size -2.54 -2.54)
 		(stroke
@@ -7689,15 +7823,6 @@
 		(uuid "3cd820ec-da30-4722-aa9e-f9cb10636dae")
 	)
 	(bus_entry
-		(at 57.15 233.5022)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ed9c79d-83bd-4940-a4f3-046f45131a00")
-	)
-	(bus_entry
 		(at 57.15 263.9822)
 		(size -2.54 -2.54)
 		(stroke
@@ -7714,15 +7839,6 @@
 			(type default)
 		)
 		(uuid "482682b8-ad4a-4cdf-9592-06937452e020")
-	)
-	(bus_entry
-		(at 57.15 230.9622)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dfffb40-97ce-4e81-8d04-f6426db99699")
 	)
 	(bus_entry
 		(at 209.55 233.5022)
@@ -7813,15 +7929,6 @@
 			(type default)
 		)
 		(uuid "9f161dfb-e0bd-48bc-8684-b979a27dd934")
-	)
-	(bus_entry
-		(at 57.15 228.4222)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0be8338-db5c-44be-a481-ebf7ad81fb6f")
 	)
 	(bus_entry
 		(at 58.42 149.6822)
@@ -8070,16 +8177,6 @@
 			(type default)
 		)
 		(uuid "07aafdd1-1f65-498f-854a-1b70bb33fb45")
-	)
-	(wire
-		(pts
-			(xy 57.15 236.0422) (xy 90.17 236.0422)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09ee2241-f2ef-45e4-a457-38070b32eaf5")
 	)
 	(wire
 		(pts
@@ -8458,16 +8555,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 228.4222) (xy 57.15 228.4222)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f06a6e2-51b2-4ecd-bab7-4ee3758eff23")
-	)
-	(wire
-		(pts
 			(xy 132.08 223.3422) (xy 63.5 223.3422)
 		)
 		(stroke
@@ -8516,17 +8603,6 @@
 			(type default)
 		)
 		(uuid "32b21d4e-5d08-4dcc-b9d2-38afc03ce521")
-	)
-	(bus
-		(pts
-			(xy 54.61 236.0422) (xy 54.61 225.8822)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 135 186 221 1)
-		)
-		(uuid "34833147-9cc5-4a52-a4a2-e846fa87a36e")
 	)
 	(wire
 		(pts
@@ -8932,17 +9008,6 @@
 	)
 	(bus
 		(pts
-			(xy 39.37 233.5022) (xy 52.07 233.5022)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 135 186 221 1)
-		)
-		(uuid "60107c4a-be3f-45a3-b62a-774f2c2b6544")
-	)
-	(bus
-		(pts
 			(xy 55.88 142.0622) (xy 53.34 142.0622)
 		)
 		(stroke
@@ -9272,17 +9337,6 @@
 		)
 		(uuid "80c54db2-fe55-4b55-b22c-02db1a5c42eb")
 	)
-	(bus
-		(pts
-			(xy 52.07 236.0422) (xy 52.07 233.5022)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 135 186 221 1)
-		)
-		(uuid "828df313-4502-437e-a2ca-f31569c4606f")
-	)
 	(wire
 		(pts
 			(xy 76.2 197.9422) (xy 57.15 197.9422)
@@ -9364,17 +9418,6 @@
 		)
 		(uuid "8dbf7b9a-1bac-4ffb-863f-af8ff61d09ba")
 	)
-	(bus
-		(pts
-			(xy 54.61 236.0422) (xy 52.07 236.0422)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 135 186 221 1)
-		)
-		(uuid "8e28854f-6660-4509-9c56-440e4619285f")
-	)
 	(wire
 		(pts
 			(xy 83.82 157.3022) (xy 58.42 157.3022)
@@ -9425,16 +9468,6 @@
 			(color 135 186 221 1)
 		)
 		(uuid "938a12ea-a454-49b6-84fe-7a8815bbdb1a")
-	)
-	(wire
-		(pts
-			(xy 57.15 230.9622) (xy 85.09 230.9622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94e63ab9-6c92-4a11-ac69-48bf4be6af54")
 	)
 	(wire
 		(pts
@@ -10199,16 +10232,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 233.5022) (xy 57.15 233.5022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0d083b2-71af-4a42-a98d-0c021b73a042")
-	)
-	(wire
-		(pts
 			(xy 60.96 213.1822) (xy 57.15 213.1822)
 		)
 		(stroke
@@ -10226,16 +10249,6 @@
 			(type default)
 		)
 		(uuid "e158fea6-6cfe-484a-ae9f-6670de0b426f")
-	)
-	(wire
-		(pts
-			(xy 92.71 238.5822) (xy 57.15 238.5822)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4114608-b0be-4a00-ad00-9b25d5607582")
 	)
 	(wire
 		(pts
@@ -43250,16 +43263,6 @@
 		)
 		(uuid "0d64430d-d212-4a02-870d-fdb99a8c8c46")
 	)
-	(label "TRACE{TRACE}"
-		(at 39.37 233.5022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0dac0d11-1229-4643-9e58-ca7a13296edd")
-	)
 	(label "RFFE.VIO"
 		(at 208.28 203.0222 0)
 		(effects
@@ -43370,16 +43373,6 @@
 		)
 		(uuid "3e8b7ab7-ffb0-4e6f-a2e2-e76192471f37")
 	)
-	(label "TRACE.TRACE1"
-		(at 57.15 233.5022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41149c3e-bd3e-4995-ad4e-5ab8fae1132f")
-	)
 	(label "nRF54_SWD.IO"
 		(at 57.15 223.3422 0)
 		(effects
@@ -43479,16 +43472,6 @@
 			(justify left bottom)
 		)
 		(uuid "5eaaac25-2eca-4d2d-8a3a-b2691cbee66e")
-	)
-	(label "TRACE.TRACE2"
-		(at 57.15 236.0422 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f6867fc-180b-4646-b9ad-399c3cabdaa5")
 	)
 	(label "SIM.CLK"
 		(at 209.55 233.5022 0)
@@ -43680,16 +43663,6 @@
 		)
 		(uuid "98d4b52f-8360-4793-b1ee-4d2e1e0661fc")
 	)
-	(label "TRACE.TRACE3"
-		(at 57.15 238.5822 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99c229ea-1604-4586-8161-a6abdac787a1")
-	)
 	(label "EXP_BOARD{EXP_BOARD}"
 		(at 40.64 211.9122 0)
 		(effects
@@ -43789,16 +43762,6 @@
 			(justify right bottom)
 		)
 		(uuid "b408d69f-ff7e-415c-a618-6c1f752fbf79")
-	)
-	(label "TRACE.CLK"
-		(at 57.15 228.4222 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b738b1ba-2501-4f4d-8f2a-f8a59ef8d902")
 	)
 	(label "VCOM1.TXD"
 		(at 58.42 136.9822 0)
@@ -43930,16 +43893,6 @@
 		)
 		(uuid "d87a58b6-50a6-43d0-a20e-4442ff7ffc3f")
 	)
-	(label "TRACE.CLK"
-		(at 111.76 228.4222 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8ae477c-192c-4f91-85bc-adb7988077ba")
-	)
 	(label "VCOM0.CTS"
 		(at 58.42 129.3622 0)
 		(effects
@@ -43979,16 +43932,6 @@
 			(justify left bottom)
 		)
 		(uuid "f1ad0d83-5ac2-421d-9ff2-0a552b20c967")
-	)
-	(label "TRACE.TRACE0"
-		(at 57.15 230.9622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5a4e87c-79ac-459b-bfbf-7e69202752b8")
 	)
 	(label "GPS_EN"
 		(at 208.28 218.2622 0)
@@ -44054,17 +43997,6 @@
 			(justify right)
 		)
 		(uuid "7159e7d7-ce67-4ba6-aed3-d1d70b5c13d6")
-	)
-	(hierarchical_label "TRACE{TRACE}"
-		(shape bidirectional)
-		(at 39.37 233.5022 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7bbc5ccf-85c9-4e55-a636-65dd5bb7b225")
 	)
 	(hierarchical_label "BMI270_CS"
 		(shape bidirectional)
@@ -62900,11 +62832,404 @@
 		(uuid "336db6a9-3702-492c-a47d-665985062680")
 	)
 	(no_connect
-		(at 132.0800 215.7222)
-		(uuid "cb1e1cca-9be2-419d-a447-1e35b4279e0c")
+		(at 132.0800 228.4222)
+		(uuid "b342facf-a563-4ba7-a208-a612dd8389c1")
 	)
-	(no_connect
-		(at 132.0800 218.2622)
-		(uuid "3b979ccc-d510-4434-a9ec-70263a70b365")
+	(wire
+		(pts
+			(xy 132.08 215.7222) (xy 127 215.7222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a446adf8-6353-473a-ad8a-89a4a15743bd")
+	)
+	(label "DBG_TX"
+		(at 127 215.7222 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4eee4972-ac5b-461d-b55a-c1e5c696f594")
+	)
+	(wire
+		(pts
+			(xy 132.08 218.2622) (xy 127 218.2622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a58331d-da1b-4407-9897-8da0561d27a1")
+	)
+	(label "DBG_RX"
+		(at 127 218.2622 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e977eff-01ae-4a8f-8a5b-8c7ca175f61b")
+	)
+	(symbol
+		(lib_id "pca20065:TC2030_SWD_UART")
+		(at 231.14 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c020129-2cd3-43ad-9b3d-682d56a6182a")
+		(property "Reference" "J8"
+			(at 228.6 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC2030-NL"
+			(at 228.6 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pca20065-import-fps:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 231.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tag-Connect TC2030-NL, SWD + UART (pin 3 = MCU RX, pin 6 = MCU TX)"
+			(at 231.14 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f9ff16b-2e2d-4056-ad4b-5895ae59f963")
+		)
+		(pin "2"
+			(uuid "1c1620ab-d44d-4f70-93c8-b43149b3eaf8")
+		)
+		(pin "3"
+			(uuid "36cbcc91-cf8b-48c9-b12d-58c188b68b70")
+		)
+		(pin "4"
+			(uuid "f7ef3986-3312-4bd4-b22c-747fb421bc21")
+		)
+		(pin "5"
+			(uuid "d4e077b7-e7ce-458c-8b0a-fdccbeda2997")
+		)
+		(pin "6"
+			(uuid "db8ef7b6-1bba-42cb-b07d-0807dacbbdd1")
+		)
+		(instances
+			(project "pca20065"
+				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d4dda732-10a7-4853-8b70-06ba5c0c6dd7"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 228.6 109.22) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5233af-0f45-467d-b121-1d772b3b47bb")
+	)
+	(symbol
+		(lib_id "pca20065:1V8_SW_BAR")
+		(at 228.6 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1baabccc-c1dc-4cdd-a088-5d7361903961")
+		(property "Reference" "#PWR0981"
+			(at 228.6 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1V8_SW"
+			(at 228.6 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0c120834-5963-4276-9e6d-86de06f518e2")
+		)
+		(instances
+			(project "pca20065"
+				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d4dda732-10a7-4853-8b70-06ba5c0c6dd7"
+					(reference "#PWR0981")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 238.76 121.92) (xy 243.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da68baa-5046-4d40-9858-d6c31194ab6b")
+	)
+	(label "nRF91_SWD.IO"
+		(at 243.84 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ccfdc3b-8045-4be8-ad71-d0ec72cc2266")
+	)
+	(wire
+		(pts
+			(xy 238.76 114.3) (xy 243.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3656af35-9aab-453f-a30c-c1d7b0b13bc8")
+	)
+	(label "DBG_RX"
+		(at 243.84 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3c84934-d4c3-4ea4-95b8-fead6680a1e7")
+	)
+	(wire
+		(pts
+			(xy 238.76 119.38) (xy 243.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d47b52-1a1c-4620-b4c0-50c2726b6de8")
+	)
+	(label "nRF91_SWD.CLK"
+		(at 243.84 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a13de0a-2663-44c0-8a34-410c4b347d3f")
+	)
+	(wire
+		(pts
+			(xy 228.6 129.54) (xy 228.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0740ae-3a67-4750-8541-6202c7b1aaba")
+	)
+	(wire
+		(pts
+			(xy 238.76 124.46) (xy 243.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf457289-4eb6-4f65-b1a7-dce5494ccc73")
+	)
+	(label "DBG_TX"
+		(at 243.84 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "617945c2-bd8a-4f88-bed0-6eccff044205")
+	)
+	(symbol
+		(lib_id "pca20065:GND_POWER_GROUND")
+		(at 228.6 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8da9f171-7810-4b1c-b03c-24b46bbd1a3f")
+		(property "Reference" "#PWR0982"
+			(at 228.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4a52f5d5-22b0-4d43-8709-07d3aca07cce")
+		)
+		(instances
+			(project "pca20065"
+				(path "/e5e493b2-5db2-4cc1-9a09-b26f233e4f86/d4dda732-10a7-4853-8b70-06ba5c0c6dd7"
+					(reference "#PWR0982")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "J8: nRF9151 SWD + debug UART (P0.16 TX, P0.17 RX)"
+		(exclude_from_sim no)
+		(at 215.9 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "692746cf-24c4-49b3-8cc2-8b97e0b12230")
 	)
 )
